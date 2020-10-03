@@ -57,6 +57,11 @@ print("The Area of the Circle is : ", area_of_circle)
 
 circle_radius = int(input("Enter the radius: "))
 area_of_circle = math.pi*circle_radius*circle_radius
-print("The Are of the Circle is : ", area_of_circle)
+print("The Area of the Circle is : ", area_of_circle)
 
 # Method 3
+
+def circle_area(radius):
+      area_of_circle = math.pi * radius * radius
+      return  area_of_circle
+print("The area of the Circle is :",circle_area(3))
