@@ -65,3 +65,12 @@ def circle_area(radius):
       area_of_circle = math.pi * radius * radius
       return  area_of_circle
 print("The area of the Circle is :",circle_area(3))
+
+"""
+Write a Python program which accepts the user's first and 
+last name and print them in reverse order with a space between them.
+"""
+
+user_first_name = input("Enter the first name: ")
+user_last_name = input("Enter the last name: ")
+print("User name is : ",user_last_name, " ", user_first_name)
